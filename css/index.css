@@ -1,0 +1,58 @@
+@charset "UTF-8";
+html,body {
+	background-color: #fff !important;
+}
+
+/*公共样式开始*/
+.pulic-padding {
+	padding:0 10px;
+}
+
+
+/*公共样式结束*/
+
+
+/*搜索框样式开始*/
+header .radius {
+	border-radius: 40px;
+}
+.mui-bar{
+	    background-color: #fff !important;
+}
+.mui-content{
+	background-color: #fff !important;
+}
+.mui-bar-nav {
+	box-shadow:none;
+}
+input[type=search] {
+	border:1px solid #ddd;
+	background-color:#fff;
+}
+/*搜索框样式结束*/
+
+
+/*导航开始*/
+.mui-grid-view.mui-grid-9,.mui-grid-view.mui-grid-9 .mui-table-view-cell{
+	background-color: #fff;
+	border: 0;
+}
+/*导航结束*/
+
+
+/*banner开始*/
+.banner-radius {
+	border-radius: 8px;
+}
+/*banner结束*/
+
+/*图片自适应开始*/
+.img-responsive {
+	display: inline-block;
+  	height: auto;
+  	max-width: 100%;
+}
+/*图片自适应结束*/
+/*选项卡切换+下拉刷新开始*/
+
+/*选项卡切换+下拉刷新结束*/
