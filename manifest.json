@@ -4,8 +4,8 @@
 		"iPhone",
 		"iPad"
 	],
-	"id": "H5F70BD0B",/*应用的标识，创建应用时自动生成，勿手动修改*/
-	"name": "demo2",/*应用名称，程序桌面图标名称*/
+	"id": "H586A22E0",/*应用的标识，创建应用时自动生成，勿手动修改*/
+	"name": "demo3",/*应用名称，程序桌面图标名称*/
 	"version": {
 		"name": "1.0",/*应用版本名称*/
 		"code": ""
@@ -183,7 +183,7 @@
 						},{
 							"tag": "font",
 							"id": "contactIcon",
-							"text": "\ue303",
+							"text": "\ue100",
 							"position": {
 								"top": "4px",
 								"left": "55%",
@@ -387,7 +387,8 @@
 				],
 				"refer": [
 					"html/tab-webview-subpage-contact.html",
-					"html/new-webview.html"
+					"html/new-webview.html",
+					"news.html"
 				],
 				"priority": 0
 			},
@@ -447,6 +448,21 @@
 					"fonts/mui.ttf"
 				],
 				"refer": [],
+				"priority": 0
+			},
+			"news.html": {
+				"resources": [],
+				"refer": [
+					"news_content.html",
+					"index.html"
+				],
+				"priority": 0
+			},
+			"news_content.html": {
+				"resources": [],
+				"refer": [
+					"news.html"
+				],
 				"priority": 0
 			}
 		},
