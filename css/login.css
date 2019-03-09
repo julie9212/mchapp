@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+/*login开始*/
+.mui-input-group:before,.mui-input-group:after{
+	background-color: #fff !important;
+}
+.mui-input-row label{
+	width:15%;
+	/*border:1px solid #f00;*/
+}
+.mui-input-row label~input, .mui-input-row label~select{
+	padding-top:20px;
+	width:80%;
+	/*border:1px solid #f00;*/
+}
+.row-padding-top{
+	margin-top:20px;
+}
+/*图标右移改为0*/
+/*.mui-input-group .mui-input-row:after{
+	position: absolute;
+    left: 0px;  
+}*/
+input::-webkit-input-placeholder {
+    /* placeholder颜色  */
+    color: #666;
+    /* placeholder字体大小  */
+    font-size: 14px;
+ }
+ 
+ /*button样式开始*/
+ .btn-style-login1{
+ 	width:50%;
+ 	height:36px;
+ 	/*border:1px solid #f00;*/
+ 	border-radius: 20px;
+ }
+  .btn-style-login2{
+ 	width:100px!important;
+ 	height:28px;
+ 	text-align:center;
+ 	/*border:1px solid #f00;*/
+ 	border-radius: 20px;
+ }
+ /*button样式结束*/
+ 
+ .mui-btn-primary{
+ 	background-color: -moz-linear-gradient( top,#ccc,#000);
+ }
+/*login结束*/
+
+/*request开始*/
+.input-position-father{
+	position:relative;
+}
+.input-position-child{
+	position:absolute;
+	right:0;
+	bottom:5px;
+	
+}
+/*request结束*/

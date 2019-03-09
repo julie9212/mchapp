@@ -198,7 +198,7 @@
 						}, {
 							"tag": "font",
 							"id": "contactText",
-							"text": "通讯录",
+							"text": "消息",
 							"position": {
 								"top": "24px",
 								"left": "55%",
@@ -212,7 +212,7 @@
 						},{
 							"tag": "font",
 							"id": "newwindowIcon",
-							"text": "\ue6c9",
+							"text": "\ue101",
 							"position": {
 								"top": "4px",
 								"left": "75%",
@@ -220,14 +220,14 @@
 								"height": "24px"
 							},
 							"textStyles": {
-								"fontSrc": "_www/fonts/iconfont.ttf",
+								"fontSrc": "_www/fonts/mui.ttf",
 								"align": "center",
 								"size": "24px"
 							}
 						}, {
 							"tag": "font",
 							"id": "newwindowText",
-							"text": "新窗口",
+							"text": "我的",
 							"position": {
 								"top": "24px",
 								"left": "75%",
@@ -388,7 +388,9 @@
 				"refer": [
 					"html/tab-webview-subpage-contact.html",
 					"html/new-webview.html",
-					"news.html"
+					"news.html",
+					"login.html",
+					"request.html"
 				],
 				"priority": 0
 			},
@@ -447,7 +449,9 @@
 					"js/mui.min.js",
 					"fonts/mui.ttf"
 				],
-				"refer": [],
+				"refer": [
+					"index.html"
+				],
 				"priority": 0
 			},
 			"news.html": {
@@ -462,6 +466,36 @@
 				"resources": [],
 				"refer": [
 					"news.html"
+				],
+				"priority": 0
+			},
+			"login.html": {
+				"resources": [],
+				"refer": [
+					"index.html",
+					"html/new-webview.html",
+					"html/test.html"
+				],
+				"priority": 0
+			},
+			"test.html": {
+				"resources": [],
+				"refer": [
+					"html/test.html"
+				],
+				"priority": 0
+			},
+			"html/test.html": {
+				"resources": [],
+				"refer": [
+					"test.html"
+				],
+				"priority": 0
+			},
+			"request.html": {
+				"resources": [],
+				"refer": [
+					"index.html"
 				],
 				"priority": 0
 			}

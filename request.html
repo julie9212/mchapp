@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>request</title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/login.css" rel="stylesheet"/>
+
+
+	</head>
+
+	<body>
+
+	<div class="mui-content">
+		<!--logo开始-->
+	    <div class="mui-row" style="padding: 15% 10% 10%;">
+	    	<div class="mui-col-sm-3 mui-col-xs-3"></div>
+	        <div class="mui-col-sm-6 mui-col-xs-6">
+				<a href="#"><img src="image/login/logo.png" /></a>
+	        </div>
+	    </div>
+	    <!--logo结束-->
+	    
+	    <!--login表单开始-->
+    	<div class="mui-content-padded">
+			<form class="mui-input-group" style="padding:0 10%">
+				<div class="mui-input-row">
+					<label><p><span class="mui-icon mui-icon-contact"></span></p></label>
+					<input type="text" class="mui-input-clear" placeholder="请输入手机号">
+				</div>
+				<div class="mui-input-row row-padding-top input-position-father">
+					<label><p><span class="mui-icon mui-icon-contact"></span></p></label>
+					<input type="text" class="mui-input-clear" placeholder="请输入验证码">
+					<!--发送验证码开始-->
+					<div class="input-position-child"><a type="button" class="mui-btn mui-btn-primary btn-style-login2" style="line-height: 8px;">发送验证码</a></div>
+					<!--发送验证码结束-->
+				</div>
+				
+				
+				<div class="mui-input-row  mui-password row-padding-top">
+					<label><p><span class="mui-icon mui-icon-locked"></span></p></label>
+					<input type="password" class="mui-input-password" placeholder="请输入8-16位密码">
+				</div>
+				<div class="mui-input-row  mui-password row-padding-top">
+					<label><p><span class="mui-icon mui-icon-locked"></span></p></label>
+					<input type="password" class="mui-input-password" placeholder="请再次输入密码">
+				</div>
+				
+				<div class="mui-button-row" style="padding:10% 0">
+					<button type="button" class="mui-btn mui-btn-primary btn-style-login1" onclick="return false;">注册</button>
+				</div>
+			</form>
+		</div>
+	    <!--login表单结束-->
+	    
+	    <div style="padding-top:30px;text-align:center;"><p>已有账号，返回登录</p></div>
+	</div>
+
+	</body>
+
+</html>
+
+<script type="text/javascript" charset="utf-8">
+	mui.init();
+
+</script>
