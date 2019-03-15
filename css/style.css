@@ -33,6 +33,7 @@ h6{
 	background-color: #fff !important;
 }
 
+
 /*news开始*/
 .list-img-style {
 	max-width:114px !important;
@@ -42,6 +43,7 @@ img{
 	width:100%;
 }
 /*news结束*/
+
 
 
 /*news_content开始*/
@@ -207,3 +209,58 @@ p img {
 	color:#999
 }
 /*news_content结束*/
+
+
+
+/*consult 咨询开始*/
+.img-list {
+    line-height: 44px;
+    max-width: 44px;
+    height: 44px;
+    border-radius: 22px;
+}
+
+.consult-style h4{
+	line-height:22px
+}
+.consult-style h4>span{
+	font-size:12px;
+}
+
+.consult-but{
+	border:none;
+	border-radius: 20px;
+	background: linear-gradient(to right, #0F71DD , #1BA7FF ,#49DDE2); /* 标准的语法 */
+}
+/*consult 咨询结束*/
+
+
+/*ho-hospital医院开始*/
+.ho-label{
+	line-height:22px;
+}
+.ho-label>span{
+	margin:0 1px;
+	padding:1px 3px;
+	/*border:1px solid #999;*/
+	border-radius: 5px;
+}
+
+/*ho-hospital医院结束*/
+
+/*project开始*/
+.pro-btn{
+	margin:5px 0;
+	padding:3px 15px;
+	border:0px solid #F7BF27;
+	border-radius: 20px;
+	background: linear-gradient(to right,#F7BF27, #F3E236);
+	color:#fff;
+	font-size:12px;
+}
+.por-img-style{
+	max-width: 134px!important;
+	width:134px!important;
+	height:80px!important;
+}
+/*project结束*/
